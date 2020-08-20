@@ -19,5 +19,9 @@
       "prettier"
     ],
     "rules": {
+      "strict": "off",
+      "func-names": "off",
+      "no-plusplus": "off",
+      "no-use-before-define": "off"
     }
 }
