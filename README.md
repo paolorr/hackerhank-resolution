@@ -10,6 +10,7 @@
 <br />
 
 ### Hard
+- Matrix Layer Rotation [problem](https://www.hackerrank.com/challenges/matrix-rotation-algo/problem) [solution](https://github.com/paolorr/hackerhank-resolution/blob/master/problems/matrix-layer-rotation/index.js)
 
 <br />
 <br />
