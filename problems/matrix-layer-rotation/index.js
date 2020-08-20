@@ -31,9 +31,7 @@ function matrixRotation(matrix, r) {
 
   // console.log('\n');
 
-  for (let i = 0; i < r; i++) {
-    rotateMatrix(matrix, 0, 0, rows, columns);
-  }
+  rotateMatrix(matrix, r, 0, 0, rows, columns);
 
   printMatrix(matrix);
 }
@@ -44,19 +42,37 @@ function printMatrix(matrix) {
   }
 }
 
-function rotateMatrix(matrix, startRow, startColumn, rows, columns) {
+function rotateMatrix(matrix, rotations, startRow, startColumn, rows, columns) {
   if (rows < 2 || columns < 2) {
     return;
   }
 
-  const outerLayerLength = (rows + columns - 2) * 2;
+  const layerLength = (rows + columns - 2) * 2;
+  const requiredRotations = rotations % layerLength;
+
+  for (let i = 0; i < requiredRotations; i++) {
+    rotateLayer(matrix, startRow, startColumn, rows, columns);
+  }
+
+  rotateMatrix(
+    matrix,
+    rotations,
+    startRow + 1,
+    startColumn + 1,
+    rows - 2,
+    columns - 2,
+  );
+}
+
+function rotateLayer(matrix, startRow, startColumn, rows, columns) {
+  const layerLength = (rows + columns - 2) * 2;
   const lastItem = matrix[startRow + 1][startColumn];
   let currentRow;
   let currentColumn;
   let newRow;
   let newColumn;
 
-  for (let i = 0; i < outerLayerLength; i++) {
+  for (let i = 0; i < layerLength; i++) {
     newRow = currentRow;
     newColumn = currentColumn;
     if (i === 0) {
@@ -85,8 +101,6 @@ function rotateMatrix(matrix, startRow, startColumn, rows, columns) {
   } else {
     matrix[startRow + 2][startColumn] = lastItem;
   }
-
-  rotateMatrix(matrix, startRow + 1, startColumn + 1, rows - 2, columns - 2);
 }
 
 function main() {
