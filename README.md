@@ -18,8 +18,8 @@
 
 1. `cd ./problems/PROBLEM_FOLDER`
 2. `node index.js`
-4. enter the input
-3. Ctrl + D
+3. enter the data
+4. Ctrl + D
 
 or
 
