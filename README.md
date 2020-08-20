@@ -1,6 +1,7 @@
 # Hacker Rank problems resolution
 
 ### Easy
+- Diagonal Difference [problem](https://www.hackerrank.com/challenges/diagonal-difference/problem) [solution](https://github.com/paolorr/hackerhank-resolution/blob/master/problems/diagonal-difference/index.js)
 
 <br />
 
