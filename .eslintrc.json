@@ -22,6 +22,7 @@
       "strict": "off",
       "func-names": "off",
       "no-plusplus": "off",
-      "no-use-before-define": "off"
+      "no-use-before-define": "off",
+      "no-param-reassign": "off"
     }
 }
