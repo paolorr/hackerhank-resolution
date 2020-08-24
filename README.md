@@ -2,7 +2,7 @@
 
 ### Easy
 - Diagonal Difference [problem](https://www.hackerrank.com/challenges/diagonal-difference/problem) [solution](https://github.com/paolorr/hackerhank-resolution/blob/master/problems/diagonal-difference/index.js)
-
+- Plus Minus [problem](https://www.hackerrank.com/challenges/plus-minus/problem) [solution](https://github.com/paolorr/hackerhank-resolution/blob/master/problems/plus-minus/index.js)
 <br />
 
 ### Medium
