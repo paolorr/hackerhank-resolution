@@ -3,6 +3,7 @@
 ### Easy
 - Diagonal Difference [problem](https://www.hackerrank.com/challenges/diagonal-difference/problem) [solution](https://github.com/paolorr/hackerhank-resolution/blob/master/problems/diagonal-difference/index.js)
 - Plus Minus [problem](https://www.hackerrank.com/challenges/plus-minus/problem) [solution](https://github.com/paolorr/hackerhank-resolution/blob/master/problems/plus-minus/index.js)
+- Birthday Cake Candles [problem](https://www.hackerrank.com/challenges/birthday-cake-candles/problem) [solution](https://github.com/paolorr/hackerhank-resolution/blob/master/problems/birthday-cake-candles/index.js)
 <br />
 
 ### Medium
